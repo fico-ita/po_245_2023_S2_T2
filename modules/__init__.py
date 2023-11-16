@@ -7,6 +7,5 @@ Modules exported by this package:
 - `load_data`: Load financial data for analysis
 - `strategy_simulator`: Calculate portfolio returns using your strategy.
 - `strategy_momentum`: Implement a Momentum strategy with equal weights for stocks.
-- `strategy_minRisk`: Implement a minimum risk strategy.
 
 """

@@ -1,15 +1,10 @@
-This part of the project documentation focuses on a **learning-oriented** approach.
-You'll learn how to get started with the code in this project.
+To effectively utilize the momentum package in your simulation, it is crucial to set up everything for the seamless execution of the main function, momentum_simulator. This involves loading a DataFrame in accordance with the format specified in the documentation. Additionally, you will need to provide the desired time frame for the simulation.
 
-Expand this section by considering the following points:
+The process begins with ensuring that your DataFrame adheres to the prescribed structure detailed in the documentation. This standardized format facilitates the accurate application of the momentum strategy. Once the DataFrame is prepared, you can seamlessly integrate it into the momentum_simulator function, allowing you to simulate the momentum strategy over the specified time period.
 
-- Help newcomers with getting started
-- Teach readers about your library by making them write code
-- Inspire confidence through examples that work for everyone, repeatably
-- Give readers an immediate sense of achievement
-- Show concrete examples, no abstractions
-- Provide the minimum necessary explanation
-- Avoid any distractions
+By following these steps and leveraging the functionalities provided by the momentum package, you can gain valuable insights into the performance of the momentum strategy tailored to your specific dataset and time frame.
 
-!!! warning
-    Faça ao menos 1 tutorial com jupyter notebook.
+!!! tip
+    There is a main notebook in the initial repository that includes an example implementation of the strategy. 
+
+

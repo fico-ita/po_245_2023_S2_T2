@@ -1,11 +1,4 @@
-This part of the project documentation focuses on an **understanding-oriented**
-approach. You'll get a chance to read about the background of the project, as well as
-reasoning about how it was implemented.
 
-Expand this section by considering the following points:
+This project was developed as part of the machine learning in quantitative finance course. In this course, each student was required to choose a strategy, implement it, and provide proper documentation. During my early studies in quantitative finance, I came across the momentum strategy, which, in general, showed considerable returns in the S&P 500. Encouraged by this apparent success, I attempted to implement the strategy in the Brazilian market. Regarding the strategy parameters, I consulted various books, papers, and conducted several backtests, which helped me refine the strategy in the end.
 
-- Give context and background on your library
-- Explain why you created it
-- Provide multiple examples and approaches of how to work with it
-- Help the reader make connections
-- Avoid writing instructions or technical descriptions here
+However, despite the chosen parameters, the strategy did not perform as well as expected. Perhaps, a further adjustment to the strategy is necessary to achieve better results. Thus, this package serves not only to showcase my work but also to act as an initial study for someone else, leading to the development of an improved strategy.

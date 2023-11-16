@@ -1,39 +1,33 @@
-This part of the project documentation focuses on a
-**problem-oriented** approach. You'll tackle common
-tasks that you might have, with the help of the code
-provided in this project.
-
-## How To Add Two Numbers?
-
-You have two numbers and you need to add them together.
-You're in luck! The `calculator` package can help you
-get this done.
-
+## Como simular e estudar a estrategia de momentum?
+Se voce tem um dataset e precisa simular a estrategia de momentum, voce esta com sorte! 
+O pacote `momentum` pode te ajudar a fazer isso.
 Download the code from this GitHub repository and place
-the `calculator/` folder in the same directory as your
-Python script:
+the `momentum` folder in the same directory as your
 
     your_project/
     │
-    ├── calculator/
+    ├── modules/
     │   ├── __init__.py
-    │   └── calculations.py
+    │   └── get_retornos.py
+    │   └── initial_weights.py
+    │   └── load_data.py
+    │   └── strategy_simulator.py
+    │   
+    ├── example/
+    │   ├── __init__.py
+    │   └── strategy_momentum.py    
     │
-    └── your_script.py
+    ├── dataset/
+    │   ├── BR/
+    │   └── US/   
+    │
+    └── your_notebook.ipynb
+!!! warning
+    Ensure that you upload your dataset for simulation. Alternatively, you can use the dataset in the actual repository. If you choose to add your own dataset, please adhere to the same file format standardization as the files present in the repository's dataset.
 
-Inside of `your_script.py` you can now import the
-`add()` function from the `calculator.calculations`
-module:
+Within your notebook, you can import the `momentum` function from the `momentum.strategy_momentum` module using the following code:
 
-    # your_script.py
-    from calculator.calculations import add
+    # your_notebook.ipynb
+    from momentum.strategy_momentum import momentum
 
-After you've imported the function, you can use it to add any two numbers that you need
-to add:
-
-    # your_script.py
-    from calculator.calculations import add
-
-    print(add(20, 22))  # OUTPUT: 42.0
-
-You're now able to add any two numbers, and you'll always get a `float` as a result.
+After importing the function into your notebook, you can use the modules along with the chosen dataset to simulate the momentum strategy with various parameters of your choice.

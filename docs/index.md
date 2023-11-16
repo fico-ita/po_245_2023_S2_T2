@@ -1,61 +1,14 @@
-# Bem-vindo ao FICO
+# Welcome to the Momentum Strategy documentation!
+This is a Python package developed as part of the PO-245 course project, focusing on the analysis of the momentum strategy within the Brazilian market. Additionally, the package includes an implementation of a variant of this strategy, along with a detailed study in the main.py notebook, available in the associated GitHub directory.
 
-Leia a documentação do Mkdocs em [mkdocs.org](https://www.mkdocs.org).
-
-## Comandos
-
-* `mkdocs new [dir-name]` - Cria um novo projeto.
-* `mkdocs serve` - Inicia o servidor live-reloading de documentação.
-* `mkdocs build` - Constrói o site da documentação.
-* `mkdocs -h` - Imprime a mensagem de ajuda.
-
-## Estrutura da documentação
-
-    mkdocs.yml    # Arquivo de configuração.
-    docs/
-        index.md  # Página principal da documentação
-        ...       # Outras páginas via markdown, imagens e outros arquivos.
-
-## Organização da documentação
-
-Para a organização da documentação de usuário, baseie-se na proposta de
-[Diátaxis](https://diataxis.fr/), que consiste em 4 classes de documentos:
-
-1. Tutorials
-1. How-To guides
-1. Reference
-1. Explanation
-
-!!! warning
-    Não é obrigatório seguir Diátaxis. Ela serve apenas como guia.
-
-As documentações acima são pensadas para o leitor usuário da solução.
-
-Deve-se ainda considerar a documentação para fins acadêmicos e de engenharia de
-software, i.e., quando quem desenvolve o projeto é o leitor. Caso contrário,
-atualizações podem se tornar impraticáveis.
-
-Esta documentação possui grande intersecção com *Explanation*. A diferença é que o
-público de *Explanation* é o usuário da solução, enquanto na documentação acadêmica e
-para desenvolvimento o público alvo são os desenvolvedores e arquitetos da solução.
-
-Nesta documentação o foco é destacar as tomadas de decisão e organização da solução,
-preferencialmente apesentando um diagrama de componentes da solução e como eles se
-interagem. Em nossa disciplina, iremos incluir o artigo como forma de atingir estes
-objetivos.
-
+Throughout the development and implementation of the strategy, various resources, including relevant books and scientific papers, were consulted. Furthermore, the valuable input from the course instructors and monitor played a crucial role in refining this approach.
 ## Momentum Strategy
 
 ::: modules
+::: example
 
-# Licença
+## License
+The documentation is available on the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-Similar ao README.md
-
-## Agradecimento
-
-Similar ao README.md
-
-## Como citar
-
-Similar ao README.md
+## Acknowledgment
+I would like to express my gratitude to the professors and the monitor of the PO-245 course, as well as to the Brazilian Air Force for their outstanding education at the Aeronautics Institute of Technology (ITA).
