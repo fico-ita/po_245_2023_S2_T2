@@ -1,4 +1,4 @@
-"""Módulo que contém a implementação da estratégia de momentum."""
+"""Module that contains the implementation of the momentum strategy.."""
 
 import pandas as pd
 

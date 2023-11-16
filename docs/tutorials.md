@@ -5,6 +5,6 @@ The process begins with ensuring that your DataFrame adheres to the prescribed s
 By following these steps and leveraging the functionalities provided by the momentum package, you can gain valuable insights into the performance of the momentum strategy tailored to your specific dataset and time frame.
 
 !!! tip
-    There is a main notebook in the initial repository that includes an example implementation of the strategy. 
+    There is a main notebook in the initial repository that includes an example implementation of the strategy with a Tearsheet. 
 
 
