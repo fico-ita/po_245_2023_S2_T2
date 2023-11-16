@@ -33,4 +33,4 @@ The documentation is available on the [GitHub](https://fico-ita.github.io/po_245
 The documentation is available on the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Acknowledgment
-I would like to express my gratitude to the professors and the monitor of the PO-245 course, as well as to the Brazilian Air Force for their outstanding education at the Instituto Tecnológico de Aeronáutica (ITA).
+I would like to express my gratitude to the professors and the monitor of the PO-245 course, as well as to the Brazilian Air Force for their outstanding education at the Aeronautics Institute of Technology (ITA).
