@@ -44,13 +44,9 @@ preferencialmente apesentando um diagrama de componentes da solução e como ele
 interagem. Em nossa disciplina, iremos incluir o artigo como forma de atingir estes
 objetivos.
 
-## Calculadora FICO
+## Momentum Strategy
 
-::: fico
-
-## Projeto
-
-Adicione aqui o pdf do artigo.
+::: modules
 
 # Licença
 
