@@ -1,8 +1,5 @@
-## Como simular e estudar a estrategia de momentum?
-Se voce tem um dataset e precisa simular a estrategia de momentum, voce esta com sorte! 
-O pacote `momentum` pode te ajudar a fazer isso.
-Download the code from this GitHub repository and place
-the `momentum` folder in the same directory as your
+## How can  simulate and study the momentum strategy?
+If you have a dataset and need to simulate momentum strategy, you're in luck! The momentum package can assist you in accomplishing this. Download the code from this GitHub repository and put the momentum folder in the same directory as yours.
 
     your_project/
     │
