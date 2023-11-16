@@ -40,8 +40,8 @@ def get_retornos_sp(data, t, window_size):
 
     local_sp500 = dates_prices[t] > sp500["Date"]
 
-    # data_sp500 = sp500["Date"][local_sp500].tail(1).values[0]
-    data_sp500 = sp500["Date"].to_numpy()[local_sp500].tail(1)[0]
+    data_sp500 = sp500["Date"][local_sp500].tail(1).values[0]
+    # data_sp500 = sp500["Date"].to_numpy()[local_sp500].tail(1)[0] correção sugerida no rufus
 
     sp500_t = sp500["Ticker"].loc[sp500["Date"] == data_sp500]
     prices_t = prices[sp500_t].loc[dates_prices[t - window_size : t]].dropna(axis=1)
@@ -86,8 +86,8 @@ def get_retornos_ibov(data, t, window_size):
     dates_prices = prices.index
 
     local_ibov = dates_prices[t] > ibov["Date"]
-    # data_ibov = ibov["Date"][local_ibov].tail(1).values[0]
-    data_ibov = ibov["Date"].to_numpy()[local_ibov].tail(1)[0]
+    data_ibov = ibov["Date"][local_ibov].tail(1).values[0]
+    #data_ibov = ibov["Date"].to_numpy()[local_ibov].tail(1)[0] correção sugerida no rufus
 
     ibov_t = ibov["Ticker"].loc[ibov["Date"] == data_ibov]
     prices_t = prices[ibov_t].loc[dates_prices[t - window_size : t]]
